@@ -1,0 +1,19 @@
+{
+  "version": "V4",
+  "benchmark_unit": "episode_nested_with_file_level_primary_unit",
+  "default_seeds": [42, 101, 777, 1337, 2027],
+  "locked_test": true,
+  "select_on": "validation",
+  "primary_metrics": ["probability_of_detection", "intercept_time", "high_priority_miss_rate", "coverage_compliance"],
+  "secondary_metrics": ["p50", "p95", "p99", "false_alarm_rate", "mean_staleness", "max_staleness", "decision_latency_us", "dwell_efficiency"],
+  "prediction_metrics": ["roc_auc", "pr_auc", "brier", "nll", "ece", "top1", "top3", "top5"],
+  "hard_constraints": {
+    "coverage": true,
+    "high_priority_protection": true,
+    "no_truth_to_policy": true
+  },
+  "latency_definition": "successful_observation_time_minus_emission_time",
+  "ci": "bootstrap_95_percent",
+  "paired_test": "sign_permutation",
+  "minimum_seeds": 5
+}

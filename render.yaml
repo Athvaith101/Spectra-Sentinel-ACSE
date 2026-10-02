@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: sih26055-ew-api
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: EW_V6_ROOT
+        value: /app
+      - key: EW_ENGINE_ROOT
+        value: /app/python_engine
+      - key: MODEL_SOURCE
+        value: local
+      - key: MAX_UPLOAD_MB
+        value: "250"

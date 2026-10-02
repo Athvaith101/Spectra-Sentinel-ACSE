@@ -1,0 +1,134 @@
+{
+  "algorithm": "dueling_dqn",
+  "seed": 26055,
+  "episodes": 200,
+  "weights_checkpoint": "models\\rl\\dueling_dqn_seed26055.pt",
+  "weight_format": "scan-rl-weights-v1",
+  "state_dim": 64,
+  "n_actions": 6,
+  "gradient_steps": 16800,
+  "final_mean_reward": 2.1391599999999995,
+  "final_detection_rate": 0.05262550952206124,
+  "history_tail": [
+    {
+      "reward": 6.335826666666676,
+      "detections": 6,
+      "steps": 84,
+      "detection_rate": 0.18181818181818182
+    },
+    {
+      "reward": 1.517493333333332,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.02564102564102564
+    },
+    {
+      "reward": 0.48082666666666596,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 1.6158266666666639,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.029411764705882353
+    },
+    {
+      "reward": 0.6108266666666676,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 1.2958266666666671,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.037037037037037035
+    },
+    {
+      "reward": 0.28082666666666706,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 4.3758266666666605,
+      "detections": 4,
+      "steps": 84,
+      "detection_rate": 0.1111111111111111
+    },
+    {
+      "reward": 1.5141600000000006,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.02702702702702703
+    },
+    {
+      "reward": 4.424159999999991,
+      "detections": 4,
+      "steps": 84,
+      "detection_rate": 0.14285714285714285
+    },
+    {
+      "reward": 0.3991599999999994,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 3.485826666666667,
+      "detections": 3,
+      "steps": 84,
+      "detection_rate": 0.08108108108108109
+    },
+    {
+      "reward": 0.32249333333333335,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 4.574159999999992,
+      "detections": 4,
+      "steps": 84,
+      "detection_rate": 0.12121212121212122
+    },
+    {
+      "reward": 1.469159999999998,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.02702702702702703
+    },
+    {
+      "reward": 1.4741599999999997,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.034482758620689655
+    },
+    {
+      "reward": 0.412493333333333,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 6.32249333333334,
+      "detections": 6,
+      "steps": 84,
+      "detection_rate": 0.20689655172413793
+    },
+    {
+      "reward": 0.49249333333333284,
+      "detections": 0,
+      "steps": 84,
+      "detection_rate": 0.0
+    },
+    {
+      "reward": 2.4391600000000007,
+      "detections": 2,
+      "steps": 84,
+      "detection_rate": 0.05555555555555555
+    }
+  ]
+}

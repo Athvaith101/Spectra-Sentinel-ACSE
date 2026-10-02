@@ -1,0 +1,21 @@
+dataset_root: "C:/Users/Athvaith/Desktop/data/TSRD"
+
+scan:
+  train: "scan/train_scan"
+  validation: "scan/val_scan"
+  test: "scan/test_scan"
+
+stare:
+  train: "stare/train_stare"
+  test: "stare/test_stare"
+
+archive:
+  train: "archive/train"
+  validation: "archive/validation"
+  test: "archive/test"
+
+project_data:
+  manifests: "data/manifests"
+  processed: "data/processed"
+  results: "results"
+  models: "models"

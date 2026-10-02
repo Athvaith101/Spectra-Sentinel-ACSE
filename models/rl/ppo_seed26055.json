@@ -1,0 +1,134 @@
+{
+  "algorithm": "ppo",
+  "seed": 26055,
+  "episodes": 200,
+  "weights_checkpoint": "models\\rl\\ppo_seed26055.pt",
+  "weight_format": "scan-rl-weights-v1",
+  "state_dim": 64,
+  "n_actions": 6,
+  "gradient_steps": 16800,
+  "final_mean_reward": 6.874493333333341,
+  "final_detection_rate": 0.18821329411985696,
+  "history_tail": [
+    {
+      "reward": 1.7858266666666665,
+      "detections": 1,
+      "steps": 84,
+      "detection_rate": 0.030303030303030304
+    },
+    {
+      "reward": 6.779160000000009,
+      "detections": 6,
+      "steps": 84,
+      "detection_rate": 0.15384615384615385
+    },
+    {
+      "reward": 5.805826666666675,
+      "detections": 5,
+      "steps": 84,
+      "detection_rate": 0.15151515151515152
+    },
+    {
+      "reward": 3.7791600000000107,
+      "detections": 3,
+      "steps": 84,
+      "detection_rate": 0.08823529411764706
+    },
+    {
+      "reward": 8.784160000000009,
+      "detections": 8,
+      "steps": 84,
+      "detection_rate": 0.27586206896551724
+    },
+    {
+      "reward": 3.7358266666666715,
+      "detections": 3,
+      "steps": 84,
+      "detection_rate": 0.1111111111111111
+    },
+    {
+      "reward": 5.78249333333334,
+      "detections": 5,
+      "steps": 84,
+      "detection_rate": 0.15151515151515152
+    },
+    {
+      "reward": 5.789160000000009,
+      "detections": 5,
+      "steps": 84,
+      "detection_rate": 0.1388888888888889
+    },
+    {
+      "reward": 7.749160000000009,
+      "detections": 7,
+      "steps": 84,
+      "detection_rate": 0.1891891891891892
+    },
+    {
+      "reward": 2.7991600000000014,
+      "detections": 2,
+      "steps": 84,
+      "detection_rate": 0.07142857142857142
+    },
+    {
+      "reward": 7.752493333333343,
+      "detections": 7,
+      "steps": 84,
+      "detection_rate": 0.25
+    },
+    {
+      "reward": 8.745826666666675,
+      "detections": 8,
+      "steps": 84,
+      "detection_rate": 0.21621621621621623
+    },
+    {
+      "reward": 3.7908266666666703,
+      "detections": 3,
+      "steps": 84,
+      "detection_rate": 0.08571428571428572
+    },
+    {
+      "reward": 6.794160000000008,
+      "detections": 6,
+      "steps": 84,
+      "detection_rate": 0.18181818181818182
+    },
+    {
+      "reward": 3.767493333333345,
+      "detections": 3,
+      "steps": 84,
+      "detection_rate": 0.08108108108108109
+    },
+    {
+      "reward": 7.782493333333338,
+      "detections": 7,
+      "steps": 84,
+      "detection_rate": 0.2413793103448276
+    },
+    {
+      "reward": 6.79416000000001,
+      "detections": 6,
+      "steps": 84,
+      "detection_rate": 0.1935483870967742
+    },
+    {
+      "reward": 4.734160000000007,
+      "detections": 4,
+      "steps": 84,
+      "detection_rate": 0.13793103448275862
+    },
+    {
+      "reward": 4.805826666666672,
+      "detections": 4,
+      "steps": 84,
+      "detection_rate": 0.13333333333333333
+    },
+    {
+      "reward": 13.777493333333341,
+      "detections": 13,
+      "steps": 84,
+      "detection_rate": 0.3611111111111111
+    }
+  ]
+}

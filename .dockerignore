@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+.env
+*.h5
+*.hdf5
+*.he5
+*.npz
+data/
+results/
+reports/
+__pycache__/

@@ -1,0 +1,21 @@
+﻿dataset_root: "C:/Users/Athvaith/Desktop/v5/data/prototype_split"
+
+scan:
+  train: "scan_train"
+  validation: "scan_validation"
+  test: "scan_test"
+
+stare:
+  train: "stare_train"
+  test: "stare_test"
+
+archive:
+  train: "archive/train"
+  validation: "archive/validation"
+  test: "archive/test"
+
+project_data:
+  manifests: "data/prototype_manifests"
+  processed: "data/prototype_processed"
+  results: "results/prototype"
+  models: "models/prototype"

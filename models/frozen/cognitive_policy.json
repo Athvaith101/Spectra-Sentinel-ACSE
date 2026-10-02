@@ -1,0 +1,13 @@
+{
+  "policy": "cognitive_greedy",
+  "weights": {
+    "belief": 1.0,
+    "prediction": 1.0,
+    "staleness": 0.5,
+    "uncertainty": 0.5,
+    "coverage": 0.75,
+    "priority": 1.25
+  },
+  "ood_behavior": "reduce prediction reliance, boost exploration",
+  "changepoint_behavior": "boost coverage pressure"
+}

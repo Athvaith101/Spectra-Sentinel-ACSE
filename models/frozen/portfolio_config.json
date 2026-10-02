@@ -1,0 +1,41 @@
+{
+  "controller": "multiplicative_weights_hedge",
+  "learning_rate": 0.15,
+  "ood_regularization": 0.1,
+  "context_features": [
+    "detection_density",
+    "mean_snr",
+    "transition_entropy",
+    "unique_channel_ratio",
+    "staleness_mean",
+    "staleness_max",
+    "uncertainty_mean",
+    "ood_score",
+    "change_point_score",
+    "coverage_fraction"
+  ],
+  "experts": [
+    "Sequential",
+    "RoundRobinDwell",
+    "Staleness",
+    "InformationGain",
+    "UCB1",
+    "LinUCB",
+    "Thompson",
+    "Markov",
+    "Cognitive",
+    "policy",
+    "policy",
+    "policy",
+    "policy",
+    "MPC",
+    "STARE-Cognitive"
+  ],
+  "forbidden_inputs": [
+    "scenario_name",
+    "emitter_identity",
+    "future_events",
+    "ground_truth_priority",
+    "truth_frequency"
+  ]
+}

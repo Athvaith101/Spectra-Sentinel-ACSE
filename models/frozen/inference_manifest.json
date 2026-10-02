@@ -1,0 +1,36 @@
+{
+  "manifest": "SIH26055-V5 inference artifacts",
+  "software_version": "SIH26055-V5.0.0",
+  "generated_utc": "2026-09-24T17:51:46.227293+00:00",
+  "web_app_rule": "INFERENCE ONLY - the web app never trains",
+  "artifacts": {
+    "stare": {
+      "artifact": "models\\frozen\\stare_inference.pt",
+      "sha256": "c7f96b88737eca4a6f87648fc184bc28eb064d80c7620c83663ca05cc116d188",
+      "input_shape": [
+        1,
+        128,
+        5
+      ],
+      "embedding_dim": 64,
+      "checkpoint_epoch": 1
+    },
+    "cognitive_policy": {
+      "artifact": "models\\frozen\\cognitive_policy.json",
+      "sha256": "0eeb7f708521a0c7770070d521d7cbab93ab2b587444fcd3f061d7136af57461"
+    },
+    "portfolio_config": {
+      "artifact": "models\\frozen\\portfolio_config.json",
+      "sha256": "5e90e215732d36336ad9b551fc6e94b03f3490d2373f6c9cf24bdffc0c56668c"
+    },
+    "dwell_ladder": {
+      "artifact": "models\\frozen\\dwell_ladder.json",
+      "sha256": "6080467efdc45973123bbc0d4c6c82b406f4aac95f007ef4365d4efc53bfa59d"
+    }
+  },
+  "inference_api_contract": {
+    "input": "receiver-observable observation (PolicyObservation)",
+    "output": "channel + dwell decision with explanation",
+    "forbidden": "any ground-truth emitter information"
+  }
+}
